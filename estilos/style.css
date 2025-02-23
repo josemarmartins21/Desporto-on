@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+:root {
+    --cor1: #37A05C;
+    --cor2: #69753B;
+    --cor3: #5B79A3;
+    --cor4: #756A3C;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: #37A05C;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    min-height: 150px;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+
+}
+header nav a:hover {
+    background-color: #9DF551;
+}
+header p {
+    padding: 20px;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+}
+main p {
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+main strong {
+    color: green;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+}
+footer p {
+    text-align: center;
+    background-color: var(--cor4);
+    padding: 30px;
+}
