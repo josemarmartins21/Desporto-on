@@ -1,8 +1,8 @@
 @charset "utf-8";
-/* CSS Document */
+
 
 :root {
-    --cor1: #37A05C;
+    --cor1: #4D7551;
     --cor2: #69753B;
     --cor3: #5B79A3;
     --cor4: #756A3C;
@@ -17,7 +17,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color: #37A05C;
+    background-color: #4D7551;
     padding: 20px;
     text-align: center;
     color: white;
@@ -59,6 +59,7 @@ img {
 }
 footer p {
     text-align: center;
-    background-color: var(--cor4);
+    background-color: black;
+    color: white;
     padding: 30px;
 }
